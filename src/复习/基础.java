@@ -108,7 +108,43 @@ public class 基础 {
 	由于finally块中的代码肯定会执行，所以常常将关闭资源（如关闭文件、数据库连接等）
 的语句放在fianlly中。
 		
-		
+	char charAt(int index)  根据指定的下标，获取对应位置上的字符
+	int  indexOf(int ch )   从前往后获取指定的字符第一次出现的下标，如果没有，返回-1
+	int  indexOf(int ch , int fromIndex ) 从指定的下标位置往后获取指定的字符第一次出现的下标，如果没有，返回-1
+	int  indexOf( String str ) 从前往后获取指定的字符串第一次出现的下标，如果没有，返回-1
+	int  indexOf(String str , int fromIndex) 从指定的下标位置往后获取指定的字符串第一次出现的下标，如果没有，返回-1
+	String substring( int beginIndex ) 从指定的位置开始截取字符串到结束位置
+	String substring( int beginIdex , int endIndex ) 从beginIdex开始截取到endIndex位置
+	int lastIndexOf  从后往前获取字符或者字符串出现的下标
+	int length()  获取字符串的长度
+	equals 判断2个字符串是否相同
+	equalsIgnoreCase(String anotherString) 忽略大小写比较2个字符串是否相同
+	endsWith 判断是否以指定的字符串结尾
+	startsWith 判断是否以指定的字符串开始
+	contains  判断是否包含指定的字符串数据
+	compareTo 可以比较2个串的大小
+	isEmpty 判断字符串中的字符个数是否为零，也就是在判断字符串对象是否为空
+	String( byte[] b )  使用构造方法可以将字节数组转成字符串
+	String( char[] c )  使用构造方法将字符数组转成字符串
+	String(int[] a ,int offset , int len) 将int类型的数组转成字符串
+	valueOf  也可以将其他类型的数据转成字符串
+	getBytes  将字符串转成字节数组
+	toCharArray  将字符串转成字符数组
+	toUpperCase 将字符串中的所有小写字母转成大写字母
+	toLowerCase将字符串中的所有大写字母转成小写字母
+	split  使用指定的字符串将原串切割成多个子串
+	trim  取出字符串前后的空格
+	
+	capacity()  获取字符串缓冲区的容量  例如：水杯500ML  
+	length()    获取到的是字符串中的字符个数   例如：水杯中实际装的水的容量
+	charAt(int index)  获取字符串缓冲区容器中指定位置上的字符数据
+	indexOf(String str)
+	indexOf(String str, int fromIndex)
+	lastIndexOf(String str)
+	lastIndexOf(String str, int fromIndex)
+	reverse()  反转字符串缓冲区中的字符
+	StringBuffer 安全的。StringBuilder 不安全
+	
 		
 		
 		
