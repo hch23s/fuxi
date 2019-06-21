@@ -36,4 +36,5 @@ AnnotationConfigWebApplicationContext类进行扫描，并用于构建bean定义
 	    
     @RequiresAuthentication验证用户是否登录，等同于方法subject.isAuthenticated() 结果为true时。
 	
+    @PathVariable在参数中提醒他是requestmapping的{}变量
 }

@@ -1,5 +1,5 @@
-package ¸´Ï°;
+package å¤ä¹ ;
 
-public class ¼¯ºÏ {
+public class é›†åˆ {
 
 }
