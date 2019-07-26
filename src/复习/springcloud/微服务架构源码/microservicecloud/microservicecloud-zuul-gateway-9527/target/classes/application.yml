@@ -25,6 +25,6 @@ zuul:
 info:
   app.name: atguigu-microcloud
   company.name: www.atguigu.com
-  build.artifactId: microservicecloud-zuul-gateway-9527
-  build.version: 0.0.1-SNAPSHOT
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
 

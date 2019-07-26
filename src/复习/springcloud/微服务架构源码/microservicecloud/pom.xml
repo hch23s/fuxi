@@ -70,7 +70,7 @@
 	<build>
 		<finalName>microservicecloud</finalName>
 		<resources>
-			<resource>
+			<resource><!--允许访问这个路径下的一切-->
 				<directory>src/main/resources</directory>
 				<filtering>true</filtering>
 			</resource>
@@ -106,6 +106,14 @@
 		<module>microservicecloud-config-client-3355</module>
 		<module>microservicecloud-config-eureka-client-7001</module>
 		<module>microservicecloud-config-dept-client-8001</module>
+		<module>domo1-api</module>
+		<module>demo2</module>
+		<module>demo3</module>
+		<module>demo4</module>
+        <module>demo5-7002</module>
+		<module>demo6-7003</module>
+		<module>demo7-8002</module>
+		<module>demo8-8003</module>
 	</modules>
 
 </project>

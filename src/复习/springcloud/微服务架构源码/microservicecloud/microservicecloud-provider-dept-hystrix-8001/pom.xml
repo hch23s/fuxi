@@ -26,7 +26,7 @@
 		<!-- 引入自己定义的api通用包，可以使用Dept部门Entity -->
 		<dependency>
 			<groupId>com.atguigu.springcloud</groupId>
-			<artifactId>microservicecloud-api</artifactId>
+			<artifactId>domo1-api</artifactId>
 			<version>${project.version}</version>
 		</dependency>	    	
 		<dependency>

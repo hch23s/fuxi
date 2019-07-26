@@ -13,7 +13,7 @@
 	<dependencies>
 		<dependency><!-- 自己定义的api -->
 			<groupId>com.atguigu.springcloud</groupId>
-			<artifactId>microservicecloud-api</artifactId>
+			<artifactId>domo1-api</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>

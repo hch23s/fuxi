@@ -1,4 +1,4 @@
-package 复习;
+﻿package 复习;
 
 public class 注解 {
 	@Configuration于定义配置类，可替换xml配置文件，被注解的类内部包含有一个或多个被
@@ -38,3 +38,6 @@ AnnotationConfigWebApplicationContext类进行扫描，并用于构建bean定义
 	
     @PathVariable在参数中提醒他是requestmapping的{}变量
 }
+
+
+ @Configuration配置   ConfigBean = applicationContext.xml
